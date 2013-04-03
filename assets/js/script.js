@@ -7,7 +7,8 @@ $(function(){
 	}
 
 	// The URL of your web server (the port is set in app.js)
-	var url = process.env.HEROKU_HOSTNAME || 'http://localhost:8080';
+	//var url = 'http://localhost:8080';
+	var url ='http://warm-ravine-1633.herokuapp.com/'
 
 	var doc = $(document),
 		win = $(window),
