@@ -22,8 +22,11 @@ function handler (request, response) {
     });
 }
 
-// Delete this row if you want to see debug messages
-io.set('log level', 1);
+// config required for heroku
+io.configure(function () { 
+  io.set("transports", ["xhr-polling"]); 
+  io.set("polling duration", 10); 
+});
 
 // Listen for incoming connections from clients
 io.sockets.on('connection', function (socket) {
