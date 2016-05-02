@@ -1,14 +1,13 @@
 canvas-demo
 ===========
 
-Basically a sandbox drawing application.  All clients are able to see what all other clients draw and type in the canvas.  
+An experiment with node.js, the html5 canvas, and socket.io, extended from this [tutorial.](http://tutorialzine.com/2012/08/nodejs-drawing-game/)
 
-Only tested in chrome.
+## Getting started:
+```
+$ npm install
+$ node app.js
+```
 
-Based on code from [here](http://tutorialzine.com/2012/08/nodejs-drawing-game/)
-
-To Install:
-    `npm install`
-
-* 4/3/2013
-Currently deployed at [http://warm-ravine-1633.herokuapp.com/](http://warm-ravine-1633.herokuapp.com/)
+## Changes
+* 4/3/2013: The application is currently deployed at [warm-ravine-1633.herokuapp.com](http://warm-ravine-1633.herokuapp.com/)
